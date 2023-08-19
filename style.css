@@ -224,6 +224,45 @@ nav ul li a:hover{
 
 /* contact section ends */
 
+footer{
+    padding: 1%;
+    color: white;
+    background-color: #75699e;
+}
+
+footer p{
+    line-height: 32px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.icon-style{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 10px;
+    transition: .4s;
+    
+}
+
+.icon-style:hover{
+    background-color: #374550;
+    transform: scale(1.2);
+}
+/* footer starts here */
+
+
+
+/* footer ends here */
+
 /* small devices protate tablet and large phone 576px and up */
 
 @media (min-width: 576px){
@@ -335,6 +374,69 @@ nav ul li a:hover{
 /* large devices protate tablet and large phone 992px and up */
 
 @media (min-width: 992px){
+
+    .logo-div{
+        text-align: left;
+    }
+
+    nav ul{
+        text-align: right;
+    }
+
+    nav ul li{
+        display: inline-block;
+    }
+
+    nav ul li a{
+        display: inline-block;
+        transition: .4s;
+    }
+
+    nav ul li a:hover{
+        background-color: transparent;
+        transform: scale(1.2);
+        font-family: 'Pacifico', cursive;
+        text-decoration: underline;
+        border-radius: 0;
+    }
+
+    /* banner starts */
+
+    #banner-section{
+        position: relative;
+        height: 100vh;
+    }
+
+    .banner-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner-content h1{
+        width: 700px;
+        font-size: 3rem;
+    }
+
+    .banner-content p{
+        width: 500px;
+        font-size: 2rem;
+    }
+
+    /* banner ends */
+
+    /* footer starts */
+
+    footer p{
+        text-align: left;
+    }
+
+    .social-media{
+        text-align: right;
+    }
+
+    /* footer ends */
 
     .col-lg-1{
         width: 8.33%;
